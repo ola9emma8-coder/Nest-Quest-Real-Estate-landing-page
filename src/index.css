@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@theme {
+  --font-playfair: 'Playfair Display', serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-great-vibes: 'Great Vibes', cursive;
+}
+body{
+  @apply selection:bg-black selection:text-green-500
+}
